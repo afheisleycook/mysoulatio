@@ -1,0 +1,29 @@
+type: checkiO
+files:
+- name: mission.py
+  visible: true
+  text: "def two_teams(sailors):\n    #replace this for solution\n    return [\n \
+    \       [],\n        []\n    ]\n\nif __name__ == '__main__':\n    print(\"Example:\"\
+    )\n    print(two_teams({'Smith': 34, 'Wesson': 22, 'Coleman': 45, 'Abrahams':\
+    \ 19}))\n\n    #These \"asserts\" using only for self-checking and not necessary\
+    \ for auto-testing\n    assert two_teams({\n        'Smith': 34, \n        'Wesson':\
+    \ 22, \n        'Coleman': 45, \n        'Abrahams': 19}) == [\n            ['Abrahams',\
+    \ 'Coleman'], \n            ['Smith', 'Wesson']\n            ]\n\n    assert two_teams({\n\
+    \        'Fernandes': 18,\n        'Johnson': 22,\n        'Kale': 41,\n     \
+    \   'McCortney': 54}) == [\n            ['Fernandes', 'Kale', 'McCortney'], \n\
+    \            ['Johnson']\n            ]\n    print(\"Coding complete? Click 'Check'\
+    \ to earn cool rewards!\")\n"
+  learner_created: false
+status: Unchecked
+code: "def two_teams(sailors):\n    #replace this for solution\n    return [\n   \
+  \     [],\n        []\n    ]\n\nif __name__ == '__main__':\n    print(\"Example:\"\
+  )\n    print(two_teams({'Smith': 34, 'Wesson': 22, 'Coleman': 45, 'Abrahams': 19}))\n\
+  \n    #These \"asserts\" using only for self-checking and not necessary for auto-testing\n\
+  \    assert two_teams({\n        'Smith': 34, \n        'Wesson': 22, \n       \
+  \ 'Coleman': 45, \n        'Abrahams': 19}) == [\n            ['Abrahams', 'Coleman'],\
+  \ \n            ['Smith', 'Wesson']\n            ]\n\n    assert two_teams({\n \
+  \       'Fernandes': 18,\n        'Johnson': 22,\n        'Kale': 41,\n        'McCortney':\
+  \ 54}) == [\n            ['Fernandes', 'Kale', 'McCortney'], \n            ['Johnson']\n\
+  \            ]\n    print(\"Coding complete? Click 'Check' to earn cool rewards!\"\
+  )\n"
+seconds_from_change: 9223372036854775807
